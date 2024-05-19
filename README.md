@@ -6,14 +6,21 @@ CURRENTLY AVAILABLE CODES
 
 ## Divide And Conquer
 
-- **Merge Sort**:
-- **Quick Sort**: 
-- **Binary Search**:
-- **MAX and MIN in array using divide and conquer**:
+- **Merge Sort**
+- **Quick Sort**
+- **Heap Sort**
+- **Binary Search**
+- **MAX and MIN in array using divide and conquer**
 - **Djiktras Algo**:
-- **Floyd Warshall**: 
-- **Bellman Ford**:
-- **Minimum Steps Req for Matrix Chain Multiplication**:
+- **Floyd Warshall**
+- **Bellman Ford**
+- **Minimum Steps Req for Matrix Chain Multiplication**
+
+## Branch and Bound
+
+
+## BackTracking
+- **N-queens problem**
 
 
 
