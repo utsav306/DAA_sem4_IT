@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int tsp_g[10][10] = {
    {12, 30, 33, 10, 45},
@@ -9,7 +10,7 @@ int tsp_g[10][10] = {
 int visited[10], n, cost = 0;
 
 /* creating a function to generate the shortest path */
-void travellingsalesman(int c){
+void travellingsalesman(int c,int p){
    int k, adj_vertex = 999;
    int min = 999;
    
@@ -32,12 +33,12 @@ void travellingsalesman(int c){
       cost = cost + min;
    }
    if(adj_vertex == 999) {
-      adj_vertex = 0;
+      adj_vertex = p;
       printf("%d", adj_vertex + 1);
       cost = cost + tsp_g[c][adj_vertex];
       return;
    }
-   travellingsalesman(adj_vertex);
+   travellingsalesman(adj_vertex,p);
 }
 
 /* main function */
@@ -48,7 +49,7 @@ int main(){
       visited[i] = 0;
    }
    printf("Shortest Path: ");
-   travellingsalesman(0);
+   travellingsalesman(1,1); // pass any source paramter.Both equal.
    printf("\nMinimum Cost: ");
    printf("%d\n", cost);
    return 0;
