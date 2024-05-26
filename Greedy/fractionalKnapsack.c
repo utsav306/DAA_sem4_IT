@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 float knapSack(int n, float weight[], float profit[], int capacity) {
-    float x[n], tp = 0;
+    float x[500], tp = 0;
     int i;
 
     // Initialize x array to 0
