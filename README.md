@@ -21,6 +21,11 @@ CURRENTLY AVAILABLE CODES
 
 ## BackTracking
 - **N-queens problem**
+- **Graph Colouring**
+
+## GreeDy
+- **Fractional Knapsack**
+- **Job Sequencing**
 
 
 
