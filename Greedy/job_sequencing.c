@@ -23,7 +23,7 @@ int jobSequence(int profit[],int deadline[],int n)
 
     for(i=0;i<n;i++)
     {
-        for(k=deadline[0];k>0;k--)
+        for(k=deadline[i];k>0;k--)
         {
             if(slots[k]==-1)
             {
