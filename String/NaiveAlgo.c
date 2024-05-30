@@ -7,7 +7,7 @@ void naive(char*text, char*pattern)
     int m=strlen(text);
     int n=strlen(pattern);
 
-    for(i=0;i<m-n;i++)
+    for(i=0;i<=m-n;i++)
     {
         for(j=0;j<n;j++)
         if(text[i+j]!=pattern[j])
@@ -21,7 +21,7 @@ void naive(char*text, char*pattern)
 int main()
 {
     char text[]="ABABDABACDABABCABAB";
-    char pattern[]= "ABAB";
+    char pattern[]=  "ABABCABAB";
 
     naive(text,pattern);
 
